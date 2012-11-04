@@ -1,5 +1,5 @@
 Nammateacher::Application.routes.draw do
-  root to: "application#index"
+  root to: "application#under_construction"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
