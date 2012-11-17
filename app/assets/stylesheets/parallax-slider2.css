@@ -64,9 +64,13 @@
 	color: #fff;
 	font-size: 18px;
 	line-height: 26px;
-	height: 80px;
+	height: 154px;
 	overflow: hidden;
 	font-weight: 400;
+}
+
+.da-slide p strong {
+	color: #A9CF00;
 }
 .da-slide .da-img {
 	text-align: center;
@@ -97,7 +101,7 @@
 	-webkit-user-select: none;
 }
 .da-dots span {
-	display: inline-block;
+	display: none;
 	position: relative;
 	width: 12px;
 	height: 12px;
