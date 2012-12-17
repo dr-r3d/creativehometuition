@@ -1,0 +1,27 @@
+<!-- Navbar
+    ================================================== -->
+<div class="container nav-agency">
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="navbar navbar-static-top"> 
+        <!-- navbar-fixed-top -->
+        <div class="navbar-inner">
+          <div class="container"> <a class="brand" href="index.html"> <img src="assets/Logodark.png" alt="Logo"></a>
+            <div id="main-nav">
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li class="<%= active_klass('application_index') %>"><a href="<%= root_path %>" class="home">Home</a> </li>
+                  <li class="<%= active_klass('application_about') %>"><a href="/about" class="home">About Us</a> </li>
+                  <li class="<%= active_klass('application_services') %>"><a href="/services" class="home">Services</a> </li>
+                  <li class="<%= active_klass('application_projects') %>"><a href="/projects" class="home">Projects</a> </li>
+                  <li class="<%= active_klass('application_faq') %>"><a href="/faq" class="home">FAQ</a> </li>
+                  <li class="<%= active_klass('application_contact') %>"><a href="/contact" class="home">Contact Us</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
