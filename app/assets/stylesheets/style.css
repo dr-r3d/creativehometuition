@@ -2,3 +2,12 @@
   height: 65px;
   width: 124px;
 }
+.footer .email {
+  color: #919191;
+  text-decoration: none;
+}
+
+.contact .img-email a {
+  color: #333;
+  text-decoration: none;
+}
